@@ -10,8 +10,8 @@ list = list + "\n" +
 //////////////////////////// NAMES OF PERSONS //////////////////
 (personnes[i].getElementsByClassName('name'))[0].innerText
 
-////////////////////// LAST MESSAGES : uncomment next line if you want to show messages /////////
-//+ " : (dates[i].getElementsByClassName('summary'))[0].innerText
+////////////////////// LAST MESSAGES /////////
+" + " : (dates[i].getElementsByClassName('summary'))[0].innerText
 
 };
 console.log(list);
